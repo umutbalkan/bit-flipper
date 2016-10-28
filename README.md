@@ -2,10 +2,10 @@
    
 FPGA Implementation of [Vigenère Cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher) by using [Basys 3 Artix-7 FPGA](http://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/)  and [SystemVerilog HDL](https://en.wikipedia.org/wiki/SystemVerilog)
 
-**main blocks**: Keyboard Analyzer, VGA Display, text operator.
+> Main Blocks: Keyboard Analyzer, VGA Display, text operator.
 
 
-Vigenère Cipher: It is a simple form of polyalphabetic substitution, simplified special case of the Enigma machine.
+> Vigenère Cipher: It is a simple form of polyalphabetic substitution, simplified special case of the Enigma machine.
 
 
 
