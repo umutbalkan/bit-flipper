@@ -26,5 +26,4 @@ These sources are provided me the knowledge of PS/2 Port
 - [Implementing high Speed USB functionality with FPGA](http://www.eetimes.com/document.asp?doc_id=1279155)
 
 
-### License
-*GNU GENERAL PUBLIC LICENSE*
+> GNU GENERAL PUBLIC LICENSE
