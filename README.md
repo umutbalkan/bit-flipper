@@ -24,8 +24,9 @@ An Implementation of Vigenère Cipher by using [Basys 3 Artix-7 FPGA](http://sto
 
 ### References:
 These sources are provided me the knowledge of PS/2 Keyboard 
-(http://www.instructables.com/id/PS2-Keyboard-for-FPGA/)
-(http://www.computer-engineering.org/ps2protocol/ http://www.eetimes.com/document.asp?doc_id=1279155)
+- [PS2-Keyboard-for-FPGA/](http://www.instructables.com/id/PS2-Keyboard-for-FPGA/)
+- [ps2protocol](http://www.computer-engineering.org/ps2protocol/) 
+- [Implementing high Speed USB functionality with FPGA](http://www.eetimes.com/document.asp?doc_id=1279155)
 
 
 ### License
