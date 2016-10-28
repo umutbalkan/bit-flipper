@@ -3,7 +3,7 @@
 
 ## Bilkent University Engineering Department: CS 223 - Digital Design Term Project
    
-An Implementation of Vigenère Cipher by using [Basys 3 Artix-7 FPGA](http://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/)  and [SystemVerilog HDL](https://en.wikipedia.org/wiki/SystemVerilog)
+FPGA Implementation of Vigenère Cipher by using [Basys 3 Artix-7 FPGA](http://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/)  and [SystemVerilog HDL](https://en.wikipedia.org/wiki/SystemVerilog)
 
 **main blocks**: Keyboard Analyzer, VGA Display, text operator.
 
