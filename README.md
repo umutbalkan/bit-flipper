@@ -1,14 +1,15 @@
 # bit-flipper
-## Bilkent University Engineering Department: CS 223 - Digital Design
-Digital Logic Design: Term Project
+
+
+## Bilkent University Engineering Department: CS 223 - Digital Design Term Project
    
 An Implementation of Vigenère Cipher by using [Basys 3 Artix-7 FPGA](http://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/)  and [SystemVerilog HDL](https://en.wikipedia.org/wiki/SystemVerilog)
 
-*main blocks*: Keyboard Analyzer, VGA Display, text operator.
+**main blocks**: Keyboard Analyzer, VGA Display, text operator.
 
 
 
-## How does it work?
+### How does it work?
 
 + Keyboard Analyzer takes the input from keyboard, receives a 11-bit data which contains start and stop bits, rest 8-bit is the scan code of the pressed key at the keyboard. Analyzer tries to extract that scan code from 11-bit data which can be quite hard sometimes. because scan codes are somewhat are in reverse order, meaning LSB-MSB. Displays the binary version of scan codes on LEDs on BASYS3 board and also displays the hexadecimal version of scan codes at BASYS3 7-segment display. Since BASYS3 doesn’t have a PS/2 input and creating a USB HID controller is impossible for me , there is built in micro controller on BASYS3 just below the USB port which mimics PS/2 input when there is USB.
 
@@ -21,11 +22,11 @@ An Implementation of Vigenère Cipher by using [Basys 3 Artix-7 FPGA](http://sto
 
 
 
-References:
+### References:
 These sources are provided me the knowledge of PS/2 Keyboard 
-http://www.instructables.com/id/PS2-Keyboard-for-FPGA/ 
-http://www.computer-engineering.org/ps2protocol/ http://www.eetimes.com/document.asp?doc_id=1279155
+(http://www.instructables.com/id/PS2-Keyboard-for-FPGA/)
+(http://www.computer-engineering.org/ps2protocol/ http://www.eetimes.com/document.asp?doc_id=1279155)
 
 
-## License
+### License
 GNU GENERAL PUBLIC LICENSE
