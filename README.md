@@ -15,7 +15,7 @@ FPGA Implementation of Vigenère Cipher by using [Basys 3 Artix-7 FPGA](http://s
 
 
 
-+ Text operator, takes the input from Keyboard Analyzer and creates a string do all the shifting for cryptography. SystemVerilog do support string data-type but unfortunately Vivado software couldn’t implemented it yet. So I’ve used registers for creating strings. That’s why my strings have upper bound. I’ve defined an array of bytes, then assigned ASCII to each element then I’had a constant with ASCII values in it that I can index into.
++ Text operator, takes the input from Keyboard Analyzer and creates a string to do the shifting for vigenere technique. SystemVerilog do support string data-type but unfortunately Vivado software haven't implemented it yet. So I’ve used registers for creating strings. That’s why my strings have upper bound. I’ve defined an array of bytes, then assigned ASCII to each element then I had a constant with ASCII values in it that I can index into.
 
 
 
